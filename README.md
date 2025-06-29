@@ -1,12 +1,12 @@
-## Automated-Fungi-Classification-with-Machine-learning
+## Automated Fungi Classification with Machine learning
 **Project Goal**: Using Machine Learning Algorithm to classify fungi into ‘edible’ or ‘poisonous’ species from photos.
 
 ### Models:
-**1. DINOv2 + DNN**
+**1. DINOv2 + DNN** `Automated Fungi Classification (DINOv2 + DNN).ipynb`
    - DINOv2 is a self-supervised foundation model used for extracting image features from photos. These features can then be applied to further tasks.
    - Deep Neural Network (DNN) is used as the classifier in this case. The DNN will take the labeled features extracted by DINOv2 as input, and through 3 layers, it will train and classify fungi species as either "edible" or "poisonous."
 
-**2. ResNet18**
+**2. ResNet18** `Automated Fungi Classification (ResNet18).ipynb`
    Resnet18 is a supervised pretraining model, its structure includes the feature extraction from the labeled data, followed by a linear classifier. 
 
 ### Data Preprocessing:
